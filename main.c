@@ -4,21 +4,21 @@
 int main(int argc, char** argv) {
 
     int num1,num2,result;
-    char symbol;
+    char operator;
     printf("Enter your first number : ");
     scanf("%d",&num1);
     printf("Enter your second number : ");
     scanf("%d",&num2);
-    printf("Enter a arithmetic symbol : ");
-    scanf("%c",symbol);
+    printf("Enter a operator : ");
+    scanf("%c",operator);
     
-    if(symbol == '+'){
+    if(operator == '+'){
        result = num1+num2;
-    }else if(symbol == '-'){
+    }else if(operator == '-'){
         result = num1-num2;
-    }else if(symbol == '*'){
+    }else if(operator == '*'){
         result = num1*num2;
-    }else if(symbol == '/'){
+    }else if(operator == '/'){
         result = num1/num2;
     }else{
         result = num1+num2;
